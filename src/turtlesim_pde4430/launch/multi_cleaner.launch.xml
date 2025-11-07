@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="multi_cleaner" name="multi_cleaner">
+    <!-- spawn_count=3 -> total 4 turtles with turtle1 -->
+    <param name="spawn_count" value="3"/>
+    <param name="seed" value="42"/>
+  </node>
+</launch>

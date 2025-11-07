@@ -33,15 +33,24 @@ ros2 run turtlesim_pde4430 circular_move --ros-args -p radius:=3.0 -p speed:=1.5
 change the radius to make it bigger
 Video(T2-2) inside images folder
 
-3) DONE 
+3) DONE run:
 ros2 run turtlesim_pde4430 figure_eight --ros-args \
   -p a:=3.0 -p b:=3.0 -p omega:=0.6 -p k_pos:=1.2 -p k_ang:=4.0 -p v_max:=2.0
 
-4) TBD!
+4) NOT DONE run:
+ros2 launch turtlesim_pde4430 roomba_cleaner.launch.xml 
+FAIL
+
+ros2 run turtlesim_pde4430 fast_lawnmower --ros-args -p v_lane:=3.6 -p w_turn:=4.2 -p pen_width:=6
+FAIL
+
+TO BE CONTIUNED LATER, had a busy day today
+
+5) TBD!
 
 ## Task 3
 
-1) DONE
+1) DONE VIDEO T3-1
 ros2 run turtlesim_pde4430 user_input
 
 2) 

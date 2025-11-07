@@ -1,0 +1,14 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="roomba_cleaner" name="roomba_cleaner">
+    <!-- Tweak these to trade speed vs coverage density -->
+    <param name="lane_spacing" value="0.5"/>
+    <param name="speed" value="2.0"/>
+    <param name="turn_speed" value="2.0"/>
+    <param name="pen_r" value="255"/>
+    <param name="pen_g" value="0"/>
+    <param name="pen_b" value="0"/>
+    <param name="pen_width" value="5"/>
+    <param name="teleport_start" value="true"/>
+  </node>
+</launch>

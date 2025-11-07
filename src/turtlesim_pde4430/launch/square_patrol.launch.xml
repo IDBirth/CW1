@@ -1,0 +1,9 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="square_patrol" name="square_patrol">
+    <param name="edge_len" value="3.0"/>
+    <param name="speed" value="2.0"/>
+    <param name="turn_speed" value="2.0"/>
+    <param name="corner_margin" value="1.1"/>
+  </node>
+</launch>

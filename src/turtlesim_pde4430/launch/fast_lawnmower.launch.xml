@@ -1,0 +1,10 @@
+<!-- launch/fast_lawnmower.launch.xml -->
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="fast_lawnmower" name="fast_lawnmower">
+    <param name="pen_width" value="5"/>
+    <param name="v_lane" value="3.2"/>
+    <param name="w_turn" value="3.8"/>
+    <param name="draw_shifts" value="false"/>
+  </node>
+</launch>
