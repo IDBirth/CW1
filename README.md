@@ -11,14 +11,13 @@ PDE4430 TurtleSim package.
 2) eometry_msgs/msg/ ... Twist
 3) 10 per second
 4) turtlesim/msg/Pose
-5) 
-
+5) '''
 mdx-msc-bilal@Ubunt24:~/Desktop/MDX ROS/CW1$ ros2 topic echo /turtle1/color_sensor --once
 r: 255
 g: 255
 b: 255
 ---
-
+'''
 
 ## Task 2:
 1) DONE Code at /src/turtlesim_pde4430/turtlesim_pde4430/straight_move.py
