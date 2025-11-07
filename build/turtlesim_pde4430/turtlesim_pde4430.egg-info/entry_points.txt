@@ -1,7 +1,9 @@
 [console_scripts]
 circular_move = turtlesim_pde4430.circular_move:main
+double_sweep_roomba = turtlesim_pde4430.double_sweep_roomba:main
 fast_lawnmower = turtlesim_pde4430.fast_lawnmower:main
 figure_eight = turtlesim_pde4430.figure_eight:main
+full_map_cleaner = turtlesim_pde4430.full_map_cleaner:main
 goto_goal = turtlesim_pde4430.goto_goal:main
 goto_goal_adv = turtlesim_pde4430.goto_goal_adv:main
 goto_goal_loop = turtlesim_pde4430.goto_goal_loop:main

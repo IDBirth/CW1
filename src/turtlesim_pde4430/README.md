@@ -37,14 +37,9 @@ Video(T2-2) inside images folder
 ros2 run turtlesim_pde4430 figure_eight --ros-args \
   -p a:=3.0 -p b:=3.0 -p omega:=0.6 -p k_pos:=1.2 -p k_ang:=4.0 -p v_max:=2.0
 
-4) NOT DONE run:
-ros2 launch turtlesim_pde4430 roomba_cleaner.launch.xml 
-FAIL
+4) DONE Video T2-4, run:
+ros2 run turtlesim_pde4430 double_sweep_roomba
 
-ros2 run turtlesim_pde4430 fast_lawnmower --ros-args -p v_lane:=3.6 -p w_turn:=4.2 -p pen_width:=6
-FAIL
-
-TO BE CONTIUNED LATER, had a busy day today
 
 5) TBD!
 

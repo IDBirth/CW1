@@ -15,8 +15,10 @@ launch/user_input.launch.xml
 resource/turtlesim_pde4430
 turtlesim_pde4430/__init__.py
 turtlesim_pde4430/circular_move.py
+turtlesim_pde4430/double_sweep_roomba.py
 turtlesim_pde4430/fast_lawnmower.py
 turtlesim_pde4430/figure_eight.py
+turtlesim_pde4430/full_map_cleaner.py
 turtlesim_pde4430/goto_goal.py
 turtlesim_pde4430/goto_goal_adv.py
 turtlesim_pde4430/goto_goal_loop.py

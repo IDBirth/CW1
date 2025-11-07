@@ -27,6 +27,9 @@ setup(
             'figure_eight    = turtlesim_pde4430.figure_eight:main',
             'user_input      = turtlesim_pde4430.user_input:main',
             'goto_goal       = turtlesim_pde4430.goto_goal:main',
+            'double_sweep_roomba = turtlesim_pde4430.double_sweep_roomba:main',
+            'full_map_cleaner = turtlesim_pde4430.full_map_cleaner:main',
+
 
             # Coverage / multi-agent
             'multi_cleaner   = turtlesim_pde4430.multi_cleaner:main',
