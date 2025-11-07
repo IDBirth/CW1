@@ -1,0 +1,2 @@
+[console_scripts]
+straight_move = turtlesim_pde4430.straight_move:main

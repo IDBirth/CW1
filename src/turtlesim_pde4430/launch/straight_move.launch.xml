@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="straight_move" name="straight_move"/>
+</launch>

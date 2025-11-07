@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turtlesim-pde4430
+Version: 0.1.0
+Summary: PDE4430 TurtleSim extensions (ROS 2 Jazzy)
+Maintainer: Student
+Maintainer-email: student@example.com
+License: MIT
