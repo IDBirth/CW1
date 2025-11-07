@@ -34,4 +34,14 @@ change the radius to make it bigger
 Video(T2-2) inside images folder
 
 3) DONE 
+ros2 run turtlesim_pde4430 figure_eight --ros-args \
+  -p a:=3.0 -p b:=3.0 -p omega:=0.6 -p k_pos:=1.2 -p k_ang:=4.0 -p v_max:=2.0
 
+4) TBD!
+
+## Task 3
+
+1) DONE
+ros2 run turtlesim_pde4430 user_input
+
+2) 

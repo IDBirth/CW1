@@ -23,7 +23,9 @@ setup(
         'console_scripts': [
             'straight_move = turtlesim_pde4430.straight_move:main',
             'circular_move = turtlesim_pde4430.circular_move:main',
-    ],
-},
-
+            'figure_eight  = turtlesim_pde4430.figure_eight:main',
+            'user_input    = turtlesim_pde4430.user_input:main',
+            'goto_goal     = turtlesim_pde4430.goto_goal:main',
+        ],
+    },
 )

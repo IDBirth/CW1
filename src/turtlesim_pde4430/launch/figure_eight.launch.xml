@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="figure_eight" name="figure_eight">
+    <!-- You can tweak these at launch-time if you want -->
+    <param name="lin_base" value="1.8"/>
+    <param name="lin_amp"  value="0.8"/>
+    <param name="ang_amp"  value="1.2"/>
+    <param name="omega"    value="0.8"/>
+  </node>
+</launch>

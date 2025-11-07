@@ -1,0 +1,12 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="goto_goal" name="goto_goal">
+    <param name="x" value="8.0"/>
+    <param name="y" value="8.0"/>
+    <param name="k_lin" value="1.0"/>
+    <param name="k_ang" value="4.0"/>
+    <param name="v_max" value="2.0"/>
+    <param name="w_max" value="2.0"/>
+    <param name="tolerance" value="0.12"/>
+  </node>
+</launch>

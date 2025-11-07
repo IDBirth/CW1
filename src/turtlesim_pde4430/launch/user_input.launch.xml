@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+  <node pkg="turtlesim_pde4430" exec="user_input" name="user_input">
+    <param name="linear" value="1.0"/>
+    <param name="angular" value="0.5"/>
+  </node>
+</launch>
