@@ -2,9 +2,11 @@ README.md
 package.xml
 setup.cfg
 setup.py
+launch/circular_move.launch.xml
 launch/straight_move.launch.xml
 resource/turtlesim_pde4430
 turtlesim_pde4430/__init__.py
+turtlesim_pde4430/circular_move.py
 turtlesim_pde4430/straight_move.py
 turtlesim_pde4430.egg-info/PKG-INFO
 turtlesim_pde4430.egg-info/SOURCES.txt

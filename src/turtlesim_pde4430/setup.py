@@ -22,6 +22,8 @@ setup(
     entry_points={
         'console_scripts': [
             'straight_move = turtlesim_pde4430.straight_move:main',
-        ],
-    },
+            'circular_move = turtlesim_pde4430.circular_move:main',
+    ],
+},
+
 )

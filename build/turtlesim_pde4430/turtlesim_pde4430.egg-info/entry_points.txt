@@ -1,2 +1,3 @@
 [console_scripts]
+circular_move = turtlesim_pde4430.circular_move:main
 straight_move = turtlesim_pde4430.straight_move:main

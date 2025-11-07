@@ -27,5 +27,11 @@ And
 
 Image at images/T2-1.png
 
-2) DONE Code at 
+2) DONE run:
+ros2 run turtlesim_pde4430 circular_move --ros-args -p radius:=3.0 -p speed:=1.5
+
+change the radius to make it bigger
+Video(T2-2) inside images folder
+
+3) DONE 
 
