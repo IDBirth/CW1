@@ -5,6 +5,18 @@ PDE4430
 7th Nov 2025
 
 PDE4430 TurtleSim package.
+---
+Terminal A
+source /opt/ros/jazzy/setup.bash && ros2 run turtlesim turtlesim_node
+
+Terminal B
+$WS="Your work space"
+cd "$WS"
+source /opt/ros/jazzy/setup.bash
+colcon build --symlink-install
+source install/setup.bash
+
+---
 
 ## Task 1:
 1) turtle_teleop_key
@@ -40,11 +52,11 @@ ros2 run turtlesim_pde4430 full_map_cleaner
 
 ## Task 3
 
-1) DONE VIDEO T3-1, run:
+1) VIDEO T3-1, run:
 
 ros2 run turtlesim_pde4430 user_input
 
 
-2) DONe VIDEO T3-2, run:
+2) VIDEO T3-2, run:
 
 ros2 run turtlesim_pde4430 goto_goal_loop --ros-args   -p k_lin:=1.2 -p k_ang:=5.0 -p v_max:=2.4 -p w_max:=3.2   -p tolerance:=0.12 -p slowdown_radius:=1.0
