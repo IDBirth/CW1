@@ -34,7 +34,7 @@ ros2 run turtlesim_pde4430 figure_eight --ros-args \
 ros2 run turtlesim_pde4430 double_sweep_roomba
 
 
-5) Video T2-5, but one turttle was off that hour, run:
+5) Video T2-5, run:
 ros2 run turtlesim_pde4430 full_map_cleaner
 
 

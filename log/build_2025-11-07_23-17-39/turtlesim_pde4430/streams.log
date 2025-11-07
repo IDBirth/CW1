@@ -1,0 +1,30 @@
+[0.703s] Invoking command in '/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/build --no-deps symlink_data
+[0.899s] running develop
+[1.008s] running egg_info
+[1.017s] writing turtlesim_pde4430.egg-info/PKG-INFO
+[1.017s] writing dependency_links to turtlesim_pde4430.egg-info/dependency_links.txt
+[1.017s] writing entry points to turtlesim_pde4430.egg-info/entry_points.txt
+[1.017s] writing requirements to turtlesim_pde4430.egg-info/requires.txt
+[1.017s] writing top-level names to turtlesim_pde4430.egg-info/top_level.txt
+[1.037s] reading manifest file 'turtlesim_pde4430.egg-info/SOURCES.txt'
+[1.038s] writing manifest file 'turtlesim_pde4430.egg-info/SOURCES.txt'
+[1.049s] running build_ext
+[1.049s] Creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/python3.12/site-packages/turtlesim-pde4430.egg-link (link to .)
+[1.049s] Installing circular_move script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing double_sweep_roomba script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing fast_lawnmower script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing figure_eight script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing full_map_cleaner script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing goto_goal script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing goto_goal_adv script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing goto_goal_loop script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing multi_cleaner script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.050s] Installing roomba_cleaner script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.051s] Installing square_patrol script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.051s] Installing straight_move script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.051s] Installing user_input script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+[1.051s] 
+[1.051s] Installed /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430
+[1.051s] running symlink_data
+[1.051s] error: can't copy '/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/README.md': doesn't exist or not a regular file
+[1.075s] Invoked command in '/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/build --no-deps symlink_data
