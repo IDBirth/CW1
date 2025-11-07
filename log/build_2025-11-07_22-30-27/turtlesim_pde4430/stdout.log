@@ -1,0 +1,44 @@
+running develop
+running egg_info
+creating turtlesim_pde4430.egg-info
+writing turtlesim_pde4430.egg-info/PKG-INFO
+writing dependency_links to turtlesim_pde4430.egg-info/dependency_links.txt
+writing entry points to turtlesim_pde4430.egg-info/entry_points.txt
+writing requirements to turtlesim_pde4430.egg-info/requires.txt
+writing top-level names to turtlesim_pde4430.egg-info/top_level.txt
+writing manifest file 'turtlesim_pde4430.egg-info/SOURCES.txt'
+reading manifest file 'turtlesim_pde4430.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_pde4430.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/python3.12/site-packages/turtlesim-pde4430.egg-link (link to .)
+Installing circular_move script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing fast_lawnmower script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing figure_eight script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing goto_goal script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing goto_goal_adv script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing goto_goal_loop script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing multi_cleaner script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing roomba_cleaner script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing square_patrol script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing straight_move script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+Installing user_input script to /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/lib/turtlesim_pde4430
+
+Installed /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430
+running symlink_data
+creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/ament_index
+creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/ament_index/resource_index
+creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/ament_index/resource_index/packages
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/resource/turtlesim_pde4430 -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/ament_index/resource_index/packages
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/package.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/README.md -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430
+creating /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/goto_goal.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/multi_cleaner.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/fast_lawnmower.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/square_patrol.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/goto_goal_adv.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/circular_move.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/roomba_cleaner.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/figure_eight.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/user_input.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch
+symbolically linking /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/build/turtlesim_pde4430/launch/straight_move.launch.xml -> /home/mdx-msc-bilal/Desktop/MDX ROS/CW1/install/turtlesim_pde4430/share/turtlesim_pde4430/launch

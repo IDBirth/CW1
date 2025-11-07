@@ -1,0 +1,24 @@
+<launch>
+  <!-- turtlesim GUI -->
+  <node pkg="turtlesim" exec="turtlesim_node" name="sim"/>
+
+  <!-- advanced go-to-goal with smooth slowdown + final heading -->
+  <node pkg="turtlesim_pde4430" exec="goto_goal_adv" name="goto_goal_adv">
+    <!-- single goal -->
+    <param name="x" value="8.5"/>
+    <param name="y" value="8.5"/>
+    <param name="final_theta" value="0.0"/>
+    <param name="k_lin" value="1.2"/>
+    <param name="k_ang" value="5.0"/>
+    <param name="v_max" value="2.4"/>
+    <param name="w_max" value="3.2"/>
+    <param name="slowdown_radius" value="1.0"/>
+    <param name="tolerance" value="0.10"/>
+    <param name="angle_tolerance" value="0.05"/>
+
+    <!-- or use waypoints instead of x/y:
+         <param name="waypoints" value="2.0,2.0;9.0,2.0;9.0,9.0;2.0,9.0"/>
+         <param name="loop_waypoints" value="true"/>
+    -->
+  </node>
+</launch>

@@ -50,7 +50,11 @@ TO BE CONTIUNED LATER, had a busy day today
 
 ## Task 3
 
-1) DONE VIDEO T3-1
+1) DONE VIDEO T3-1, run:
+
 ros2 run turtlesim_pde4430 user_input
 
-2) 
+
+2) DONe VIDEO T3-2, run:
+
+ros2 run turtlesim_pde4430 goto_goal_loop --ros-args   -p k_lin:=1.2 -p k_ang:=5.0 -p v_max:=2.4 -p w_max:=3.2   -p tolerance:=0.12 -p slowdown_radius:=1.0

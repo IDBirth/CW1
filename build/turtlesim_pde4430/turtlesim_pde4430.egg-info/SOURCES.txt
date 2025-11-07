@@ -6,6 +6,7 @@ launch/circular_move.launch.xml
 launch/fast_lawnmower.launch.xml
 launch/figure_eight.launch.xml
 launch/goto_goal.launch.xml
+launch/goto_goal_adv.launch.xml
 launch/multi_cleaner.launch.xml
 launch/roomba_cleaner.launch.xml
 launch/square_patrol.launch.xml
@@ -17,6 +18,8 @@ turtlesim_pde4430/circular_move.py
 turtlesim_pde4430/fast_lawnmower.py
 turtlesim_pde4430/figure_eight.py
 turtlesim_pde4430/goto_goal.py
+turtlesim_pde4430/goto_goal_adv.py
+turtlesim_pde4430/goto_goal_loop.py
 turtlesim_pde4430/multi_cleaner.py
 turtlesim_pde4430/roomba_cleaner.py
 turtlesim_pde4430/square_patrol.py
